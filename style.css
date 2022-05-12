@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+}
+
+li{
+    list-style: none;
+    padding-right: 20px;
+    font-size: small;
+    
+}
+
+
+.header-text{
+    width: 325px;
+    }
+
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+    
+}
+
+.hero {
+    max-width: 600px;
+    height:500px;
+    padding-top: 40px;
+    
+}
+
+body .container{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.navbar .container{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.logo{
+    font-weight: bold;
+    font-size: larger;
+    margin: 12px;
+    flex: 1;
+}
+
+
+.navigation{
+    display: flex;
+    flex: 17;
+}
+
+
+.login{
+    display: flex;
+    flex: 1;
+}
+
+
+.header .container{
+    display: flex;
+    align-items: flex-end ;
+    justify-content:space-around ;
+}
+
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 8%);
+}
+
+
+p{
+    font-size: small;
+    line-height: 1.5;
+    color: hsl(0, 0%, 41%);
+}
+
+.register-button{
+    background: hsl(0, 0%, 98%);
+    padding: 5px 10px;
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 10px;
+    margin: -10px auto;
+}
+
+.register-button:hover {
+    border: 2px solid hsl(0, 0%, 8%);
+    cursor: pointer;
+
+}
+
+.learn-more-button {
+    padding: 10px 15px;
+    background: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    border: none;
+    border-radius: 10px;
+    font-size: small;
+    margin: 40px auto;
+  }
+
+
+  .learn-more-button:hover {
+    border: 2px solid hsl(0, 0%, 41%);
+    background: none;
+    color: hsl(0, 0%, 8%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.clients {
+    display: flex;
+    padding: 30px auto; 
+    padding-left: 0px;
+
+}
+
+
+.dropdown{
+    display: none;
+}
+
+.down-arrow-icon {
+    margin-left: 15px;
+    
+}
+
+.menu-icon{
+    padding-right: 10px;
+    padding-left: none;
+    margin-left: none;
+}
+
+
+
+.navbar li a:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+
+
+.navigation li:hover .dropdown {
+display: block;
+position: absolute;
+background-color: #ffffff;
+margin-left: 0;
+
+}
+
+.navigation li:hover .dropdown ul li {
+    padding: 10px;
+    width: 90px;
+   
+    border-radius: none;
+    background: transparent;
+}
+
+.navigation li a:hover .dropdown ul li a:hover {
+    color: hsl(0, 0%, 8%);
+}
